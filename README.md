@@ -93,12 +93,6 @@ cd frontend
 npm install
 npm run dev
 ```
-
-Frontend available at:
-```bash
-➡️ http://localhost:3000
-```
-
 4. Data Pipeline (Optional for training)
 
 Fetch weather forecast:

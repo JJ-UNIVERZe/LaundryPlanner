@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
+prophet
+tensorflow==2.12.0
+matplotlib
+plotly

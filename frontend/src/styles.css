@@ -1,0 +1,143 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7f9fc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.city-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.city-form input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+.city-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.city-form button:hover {
+  background-color: #45a049;
+}
+
+.tip-banner {
+  padding: 12px 14px;
+  background: #e0f7fa;
+  border: 1px solid #80deea;
+  border-radius: 10px;
+  color: #006064;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.card {
+  background: #fdfdfd;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 250px;
+}
+
+.card h3 {
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.card pre {
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.safe {
+  color: #2e7d32;
+  font-weight: bold;
+  text-align: center;
+}
+
+.not-safe {
+  color: #c62828;
+  font-weight: bold;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  padding: 10px;
+  color: #555;
+}
+
+.error {
+  margin-top: 12px;
+  color: #b00020;
+  background: #ffecec;
+  border: 1px solid #ffcccc;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.feature-card {
+  background: #f5fbff;
+  border: 1px solid #d8eefc;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.feature-row {
+  color: #555;
+  font-size: 14px;
+}
+
+.map-wrapper {
+  margin-top: 16px;
+}

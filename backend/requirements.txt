@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+requests
+pandas
+python-dateutil
+joblib
+prophet
+xgboost
+numpy
+pydantic
+python-multipart
+tensorflow==2.12.0  # optional, only if training LSTM
+scikit-learn
+python-dotenv
+plotly

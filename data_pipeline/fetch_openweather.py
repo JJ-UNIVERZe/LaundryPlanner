@@ -3,7 +3,7 @@ import pandas as pd
 import datetime
 import time
 
-API_KEY = "b7b2d75c27ec7e01bb92097b1bee39ee"
+API_KEY = "YOUR_OPENWEATHER_API_KEY"
 BASE = "http://api.openweathermap.org/data/2.5/forecast"
 
 
@@ -35,4 +35,5 @@ if __name__ == "__main__":
     p.add_argument("--city", default="London")
     args = p.parse_args()
     df = fetch_city(args.city, save_csv=True, outpath="../data/forecast_{city}.csv")
+
     print(df.head())

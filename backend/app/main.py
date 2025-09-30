@@ -12,7 +12,7 @@ app = FastAPI(title="Laundry Planner Pro API")
 # ADD THIS SECTION 👇
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # allow all origins (or ["http://localhost:3000"] for more strict)
+    allow_origins=["*"],  # allow all origins 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

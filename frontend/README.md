@@ -1,8 +1,13 @@
 # Frontend — React (Vite)
 
 1. Install dependencies:
+   ```bash
    npm install
+   ```
 
-2. Start dev server:
+3. Start dev server:
+   ```bash
    npm run dev
+   ```
+
 
